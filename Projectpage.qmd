@@ -1,3 +1,47 @@
 ---
-title: "Untitled"
+title: "Elections project"
 ---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = TRUE)
+library(readr)
+library(purrr)
+library(dplyr)
+library(ggplot2)
+library(gridExtra)
+library(mosaic)
+library(gmodels)
+library(Sleuth3)
+library(GGally)
+library(tidyverse)
+library(tidymodels)
+library(readxl)
+```
+
+```{r}
+election <- read.csv("Election.csv")
+nm_election <- election %>% filter(state == "New Mexico")
+```
+
+```{r echo=FALSE}
+nm_election <- rename(nm_election, tp = `total_population`)
+nm_election <- rename(nm_election, vt16 = `voterturnout16_pct`)
+nm_election <- rename(nm_election, f = `female_pct`)
+```
+
+```{r}
+nm_election %>%
+    ggplot(aes(x = vt16)) +
+    geom_histogram(fill = "maroon1", color = "black", bins = 30) + 
+    labs(title = "Voter Turnout Distribution (2016)", 
+         x = "Percentage of Voter Turnout in 2016", 
+         y = "Frequency") +
+    theme_classic()
+nm_election %>%
+    ggplot(aes(x = vt16)) +
+    geom_boxplot(fill = "maroon1", color = "black") + 
+    labs(title = "Boxplot of Voter Turnout (2016)", 
+         x = "Percentage of Voter Turnout in 2016", 
+         y = "Frequency") +
+    theme_classic()
+```
