@@ -2,7 +2,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome to my website!",
+    "title": "STAT 244-SC",
     "section": "",
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
   },
@@ -11,7 +11,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Hello! My name is Kimberly Dominguez and I am a sophomore at Mount Holyoke college (class of 2027). I am interested in biostatistics!\n\nTo contact me, please reach out via LinkedIn"
+    "text": "Hello! My name is Kimberly Dominguez and I am a sophomore at Mount Holyoke college (class of 2027). I am interested in biostatistics!\n\nTo contact me, please reach out via LinkedIn: My LinkedIn"
   },
   {
     "objectID": "K-Means-Mini-Demo.html",

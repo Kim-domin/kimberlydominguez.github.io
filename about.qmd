@@ -2,10 +2,8 @@
 title: "About"
 ---
 
-
-
 Hello! My name is Kimberly Dominguez and I am a sophomore at Mount Holyoke college (class of 2027). I am interested in biostatistics!
 
--   To contact me, please reach out via LinkedIn
+-   To contact me, please reach out via LinkedIn: [My LinkedIn](www.linkedin.com/in/kimberly-dominguez-14949a253)
 
 ![](sillycatimage.jpg)
