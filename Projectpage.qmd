@@ -20,7 +20,7 @@ library(readxl)
 
 ::: {.callout-tip collapse="true" icon="true"}
 # Introduction to my project
-* For my final project in STAT 244-SC (spring 2025) I chose to analyze the correlation between female population and voter turnout in 2016 across 32 counties in New Mexico. For this project, I am working with the _County Presidential Election Returns 2000-2020 (Version V13)_ dataset collected by the MIT Election Data and Science Lab. My goal is to determine whether there is an increase in voter turnout when the population of women in a county is higher. 
+* For my final project in STAT 244-SC (spring 2025) I chose to analyze the correlation between female population and voter turnout in 2016 across 32 counties in New Mexico. For this project, I am working with the _County Presidential Election Returns 2000-2020 (Version V13)_ dataset collected by the MIT Election Data and Science Lab. My goal is to determine whether there is an increase in voter turnout when the population of women in a county is high. 
 :::
 
 ```{r}
