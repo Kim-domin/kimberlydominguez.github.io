@@ -132,7 +132,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./Projectpage.html" aria-current="page"> 
-<span class="menu-text">STAT 244</span></a>
+<span class="menu-text">STAT 244-SC</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -170,6 +170,24 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Introduction to my project
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>For my final project in STAT 244-SC (spring 2025) I chose to analyze the correlation between female population and voter turnout in 2016 across 32 counties in New Mexico. For this project, I am working with the <em>County Presidential Election Returns 2000-2020 (Version V13)</em> dataset collected by the MIT Election Data and Science Lab. My goal is to determine whether there is an increase in voter turnout when the population of women in a county is higher.</li>
+</ul>
+</div>
+</div>
+</div>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>election <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"Election.csv"</span>)</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>nm_election <span class="ot">&lt;-</span> election <span class="sc">%&gt;%</span> <span class="fu">filter</span>(state <span class="sc">==</span> <span class="st">"New Mexico"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
